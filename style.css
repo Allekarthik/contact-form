@@ -1,0 +1,49 @@
+/* Styles for Contact Form */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.contact-text {
+    width: 45%;
+}
+
+.contact-form {
+    width: 45%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.send {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-icons a {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.contact-icons a:hover {
+    color: #0056b3;
+}
