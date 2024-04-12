@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact<span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>As a B.Tech student passionate about technology, I welcome any inquiries or opportunities for collaboration. Feel free to reach out—I'm excited to connect and explore new avenues together."</p>
+            <div class="contact-list">
+                <li><i class="bx bxs-send"></i>allekarthik2003@gmail.com</li>
+                <li><i class="bx bxs-phone"></i>7382746151</li>
+            </div>
+            <div class="contact-icons">
+                <a href=""><i class="bx bxl-facebook-circle"></i></a>
+                <a href=""><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/karthik_alle_25_12" style="--i:8" class="active"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/ KARTHIK ALLE " style="--i:10" class="active"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+        
+        <div class="contact-form">
+            <form>
+                <input type="text" id="sendername"><br>
+                to (email)
+                <input type="text" id="to"><br>
+                subject
+                <input type="text" id="subject"><br>
+                reply to (email)
+                <input type="text" id="replyto"><br>
+                message<br>
+                <textarea id="message" cols="40" rows="8"></textarea><br>
+                <button type="button" onclick="sendMail();">send</button>
+            </form>
+            
+            
+        </div>
+        
+           
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
